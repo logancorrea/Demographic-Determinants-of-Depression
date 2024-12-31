@@ -37,7 +37,7 @@ Three supervised machine learning models were implemented to predict depression 
 
 The ROC curves for all supervised models, shown in **Figure 1**, illustrate their ability to distinguish between depressed and non-depressed classes. Logistic Regression achieved the highest Area Under the Curve (AUC = 0.55), slightly outperforming Random Forest (AUC = 0.54) and Gradient Boosting (AUC = 0.53). These results suggest marginal improvements over random performance for all models.
 
-![ROC Curves for Models](/Applied%20Machine%20Learning/Images/ROC.png)
+![ROC Curves for Models](/Images/ROC.png)
 
 <sub>**Figure 1.** ROC and PR curves compare Logistic Regression, Random Forest, and Gradient Boosting in distinguishing depressed and non-depressed classes. Logistic Regression achieved the highest AUC of 0.55.</sub>
 
@@ -45,7 +45,7 @@ SHAP analysis for Logistic Regression, shown in **Figure 2**, highlighted employ
 
 ### Logistic Regression SHAP Bar Plot
 
-![SHAP Analysis for Logistic Regression](/Applied%20Machine%20Learning/Images/SHAP.png)
+![SHAP Analysis for Logistic Regression](/Images/SHAP.png)
 
 <sub>**Figure 2.**  SHAP summary bar plot highlights employment status (EMPLOY) and substance use flag (SUB) as the most influential predictors of depression, followed by age (AGE) and gender (GENDER).</sub>
 
