@@ -51,7 +51,7 @@ SHAP analysis for Logistic Regression, shown in **Figure 2**, highlighted employ
 
 Unsupervised models, including Hierarchical Clustering, K-Modes Clustering, and Multiple Correspondence Analysis (MCA), were explored to identify patterns in the dataset. Hierarchical Clustering produced a silhouette score of 0.50, suggesting moderately distinct clusters; however, as shown in **Figure 3**, the silhouette plot revealed uneven cluster sizes and overlapping data points, indicating limited meaningful segmentation of the dataset. K-Modes Clustering performed poorly, yielding a low silhouette score of 0.067, which reflects the lack of strong distinctions among the categorical variables. These results demonstrate the challenges of clustering demographic data with limited variability and clear group separations.
 
-![Silhouette Scores for Hierarchical Clustering](/Demographic%20Determinants%20of%20Depression/Images/Silhouette.png)
+![Silhouette Scores for Hierarchical Clustering](/Images/Silhouette.png)
 
 <sub>**Figure 3:** Silhouette plot for Hierarchical Clustering shows an average score of 0.50, with uneven cluster sizes and overlapping data suggesting limited segmentation.</sub>
 
